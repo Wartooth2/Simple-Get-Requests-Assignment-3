@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Thinkful Dog API Assignment One" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dog API Assignment #3</title>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+    ></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Dog API - Generate a Random Breed</h1>
+
+      <section class="formGroup">
+        <h3>Choose a dog breed that you would like to see!</h3>
+        <form>
+          <label for="dogBreed">Dog Breed:</label>
+          <input
+            type="text"
+            name="dogBreed"
+            placeholder="Enter Breed of Dog Here"
+            required
+          />
+          <button type="submit" name="submit" class="getBreedButton">
+            Doggo Appear!
+          </button>
+        </form>
+      </section>
+
+      <section class="results hidden">
+      </section>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
